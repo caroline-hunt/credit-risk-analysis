@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "delinquency": {
+      "command": "python3",
+      "args": [
+        "/Users/carolinehunt/credit-risk/src/server.py"
+      ]
+    }
+  }
+}

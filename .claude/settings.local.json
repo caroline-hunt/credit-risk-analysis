@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install:*)",
+      "Bash(ls:*)",
+      "Bash(test:*)",
+      "Bash(timeout 3 python3:*)",
+      "Bash(python3 -c \"import sys; sys.path.insert\\(0, ''/Users/carolinehunt/credit-risk''\\); import server\")",
+      "Bash(python3:*)",
+      "Bash(claude mcp list:*)",
+      "Bash(grep:*)",
+      "mcp__delinquency__get_credit_card_delinquency_data",
+      "Bash(python clean_data.py:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "delinquency"
+  ]
+}
